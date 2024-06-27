@@ -12,3 +12,13 @@ mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$P
 
 ## After you install kubectl, you can verify its version.
 kubectl version --client
+
+## Connect to the EKS Cluster
+aws eks update-kubeconfig --region region-code --name my-cluster
+
+## Navigate to the Kube File
+cd /home/ubuntu/.kube/
+cat config
+
+## Show Worker Nodes
+kubectl get nodes
