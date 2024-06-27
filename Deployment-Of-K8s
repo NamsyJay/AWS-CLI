@@ -1,0 +1,13 @@
+## In the ./kube Folder
+vi name-of-yml file
+insert the file.
+
+## Deploy The Application
+kubectl apply -f name-of-yml
+
+## View The Application Status
+kubectl get all
+
+## To View Application
+Look for the frontend-external and copy the external-ip.
+Paste the link the browser to view the application.
