@@ -1,1 +1,8 @@
+1. SetUp Repo
+2. SetUp The required servers (Jenkins, SonarQube, Nexus, Prometheus, Grafana)
+3. Configure Tools
+4. Create Pipelines & EKS clusters
+5. Trigger The Pipelines To Deploy the Applications.
+6. Assign a custom doman to the Deployed Application.
+7. Monitor The Application.
 
